@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import '../App.css';
-import ReactHowler from 'react-howler';
+import { Link } from 'react-router-dom';
+//import ReactHowler from 'react-howler';
 const Header = () => {
     const [text, setText] = useState("");
     const [isPlaying, setISPlaying] = useState(false);
